@@ -3,6 +3,13 @@
 This lab focuses on understanding the basics of Python, working with CSV and JSON files, and setting up Jupyter Notebook in VS Code. Below is a detailed overview of the topics covered, setup instructions, and usage examples.
 
 
+## Table of Contents  
+1. [Topics Covered](#topics-covered)  
+2. [Installation and Setup](#installation-and-setup)  
+3. [Running Jupyter Notebook](#running-jupyter-notebook)  
+4. [File Descriptions](#file-descriptions)  
+
+
 ## Topics Covered
 1. **Python Basics**
    - Variables, Data Types, and Operators
