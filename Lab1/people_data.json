@@ -1,0 +1,19 @@
+{
+    "people": [
+        {
+            "name": "ATIIA",
+            "age": 20,
+            "city": "QUEETA"
+        },
+        {
+            "name": "KIRAN",
+            "age": 18,
+            "city": "FAISLABAD"
+        },
+        {
+            "name": "ADEEBA",
+            "age": 14,
+            "city": "SARGODHA"
+        }
+    ]
+}
