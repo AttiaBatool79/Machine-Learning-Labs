@@ -39,9 +39,7 @@ This lab focuses on understanding the basics of Python, working with CSV and JSO
 
 ## Setting Up Jupyter Notebook
 Install Jupyter Notebook via pip:
- ```bash
-pip install notebook
-
+`pip install notebook`
 - Install the Jupyter extension in VS Code.
 - Open a .ipynb file in VS Code to start using Jupyter Notebook.
 
