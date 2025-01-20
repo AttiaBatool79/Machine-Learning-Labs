@@ -2,6 +2,10 @@
 
 This repository contains Machine Learning lab manuals, reports, and practical implementations from the 6th semester. It serves as a resource for understanding key ML concepts and algorithms.
 
+## About the Author
+This repository is maintained by **Attia Batool**.  
+Feel free to connect with me on [LinkedIn](www.linkedin.com/in/attia-batool-079-engineer) or reach out via email: attia.computerengineer079@gmai.com.
+
 ## Lab 01: Basics of Python and File Handling
 In Lab 01, we focus on:
 - **Studying Basic Python** concepts such as variables, loops, functions, and data types.
@@ -22,5 +26,5 @@ All resources and practical implementations for Lab 01 are available in the `Lab
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Machine-Learning-Labs.git
+   git clone https://github.com/AttiaBatool79/Machine-Learning-Labs.git
    cd Machine-Learning-Labs
