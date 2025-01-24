@@ -57,12 +57,6 @@ We use the following Python libraries:
 
 ## Example Graphs
 
-# Graph Plot Types for EDA
-
-This document explains the different types of graphs used in Exploratory Data Analysis (EDA) to visualize and understand data.
-
----
-
 ## 1. Boxplot
 A boxplot displays the distribution of numerical data and highlights outliers. It shows the minimum, first quartile (Q1), median, third quartile (Q3), and maximum values.
 
