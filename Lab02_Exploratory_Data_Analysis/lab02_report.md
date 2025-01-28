@@ -1,107 +1,265 @@
 # Lab 2: Exploratory Data Analysis (EDA)
 
-Exploratory Data Analysis (EDA) is the process of exploring and understanding a dataset. It involves looking at the data, finding patterns, and using graphs to summarize the information. EDA helps us prepare the data for further analysis or machine learning.
+## Table of Contents
+1. [Objective](#objective)
+2. [Why is EDA Important?](#why-is-eda-important)
+3. [Titanic Dataset Overview](#titanic-dataset-overview)
+4. [Python Libraries](#python-libraries)
+5. [Steps for Exploratory Data Analysis](#steps-for-exploratory-data-analysis)
+   - [1. Load the Dataset](#1-load-the-dataset)
+   - [2. Analyze Columns](#2-analyze-columns)
+     - [Numerical Data](#numerical-data)
+     - [Categorical Data](#categorical-data)
+   - [3. Relationships Between Variables](#3-relationships-between-variables)
+     - [Numerical-Numerical](#numerical-numerical)
+     - [Categorical-Categorical](#categorical-categorical)
+     - [Numerical-Categorical](#numerical-categorical)
+   - [4. Multivariate Analysis](#4-multivariate-analysis)
+6. [Types of Visualizations and Their Use Cases](#types-of-visualizations-and-their-use-cases)
+7. [Tasks to Complete](#tasks-to-complete)
+8. [What You’ll Learn](#what-youll-learn)
+
+---
+
+## Objective
+The goal of this lab is to perform Exploratory Data Analysis (EDA) on the Titanic dataset to:
+
+1. Understand the dataset structure and features.
+2. Perform **Univariate Analysis** to study each variable individually.
+3. Conduct **Bivariate Analysis** to explore relationships between two variables.
+4. Use **Multivariate Analysis** to detect patterns involving multiple variables.
+5. Visualize the data effectively using different types of graphs and extract meaningful insights.
 
 ---
 
 ## Why is EDA Important?
+EDA is the first step in any data analysis project. It helps:
 
-EDA is important because:
-- It helps us understand what the data contains.
-- It shows errors, missing values, or outliers.
-- It reveals relationships between variables (e.g., age and survival).
-- It helps us decide which features to use for predictions.
-
----
-
-# Titanic Dataset Analysis
-
-This lab is about exploring the Titanic dataset to understand the data better and find useful patterns. It helps to know who survived, how age or ticket class affected survival, and other insights.
-The dataset we are analyzing is about passengers on the Titanic. It contains the following information:
-- **PassengerId**: A unique ID for each passenger.
-- **Survived**: Whether the passenger survived (1 = Yes, 0 = No).
-- **Pclass**: The class of the ticket (1 = First, 2 = Second, 3 = Third).
-- **Name**: The passenger's full name.
-- **Sex**: The passenger's gender.
-- **Age**: The passenger's age.
-- **SibSp**: Number of siblings or spouses onboard.
-- **Parch**: Number of parents or children onboard.
-- **Fare**: The ticket fare paid.
-- **Cabin**: The cabin number.
-- **Embarked**: The port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton).
+- **Understand the data structure**: What variables exist and what they represent.
+- **Detect anomalies**: Find errors, missing values, or outliers.
+- **Discover relationships**: For example, how age impacts survival.
+- **Prepare data**: Decide which features to include for machine learning.
 
 ---
 
-## Tools Used
+## Titanic Dataset Overview
+The Titanic dataset contains information about passengers aboard the Titanic. The key columns include:
 
-We use the following Python libraries:
-1. **pandas**: To manage and analyze the data.
-2. **numpy**: To do calculations with numbers.
-3. **matplotlib**: To make simple graphs.
-4. **seaborn**: To make beautiful and detailed graphs.
-
----
-
-## Steps to Follow
-
-1. **Load the Dataset**: Read the Titanic dataset using Python.
-2. **Look at the Data**: See the first few rows, column names, and missing values.
-3. **Analyze Columns**:
-   - Check individual columns like Age, Fare, and Pclass.
-   - Use graphs like histograms and boxplots.
-4. **Find Relationships**:
-   - See how variables are connected (e.g., Age and Survival).
-   - Use scatterplots, heatmaps, and pairplots.
+| Column Name     | Description                                      |
+|-----------------|--------------------------------------------------|
+| **PassengerId** | Unique ID for each passenger.                   |
+| **Survived**    | Survival status (0 = No, 1 = Yes).              |
+| **Pclass**      | Ticket class (1st, 2nd, or 3rd class).          |
+| **Name**        | Passenger's full name.                          |
+| **Sex**         | Passenger's gender.                             |
+| **Age**         | Passenger's age.                                |
+| **SibSp**       | Number of siblings or spouses aboard.           |
+| **Parch**       | Number of parents or children aboard.           |
+| **Ticket**      | Ticket number.                                  |
+| **Fare**        | Ticket fare paid.                               |
+| **Cabin**       | Cabin number.                                   |
+| **Embarked**    | Port of embarkation (C = Cherbourg, Q = Queenstown, S = Southampton). |
 
 ---
 
-## Example Graphs
+## Python Libraries
+The following libraries are essential for this lab:
 
-## 1. Boxplot
-A boxplot displays the distribution of numerical data and highlights outliers. It shows the minimum, first quartile (Q1), median, third quartile (Q3), and maximum values.
+1. **pandas**: Data manipulation and analysis.
+2. **numpy**: Numerical computations.
+3. **matplotlib**: Basic data visualizations.
+4. **seaborn**: Advanced statistical visualizations.
 
-## 2. Histogram
-A histogram shows the frequency distribution of a single numerical variable. It helps understand the shape, spread, and peaks of the data.
+Install them using:
 
-## 3. KDE Plot
-A Kernel Density Estimate (KDE) plot shows the probability density of a variable, helping visualize the overall distribution.
-
-## 4. Heatmap
-A heatmap visualizes the correlation between numerical variables using colors. It highlights positive and negative relationships between variables.
-
-## 5. Scatterplot
-A scatterplot shows the relationship between two numerical variables using individual data points. It helps identify trends, clusters, or outliers.
-
-## 6. Pie Chart
-A pie chart represents proportions or percentages of categories as slices of a circle. It is useful for visualizing the composition of a categorical variable.
-
-## 7. Countplot
-A countplot displays the frequency of each category in a categorical variable, making it easy to compare occurrences.
-
-## 8. Pairplot
-A pairplot shows scatterplots for all numerical variable pairs in the dataset. It is useful for detecting patterns and correlations.
-
-## 9. Line Plot
-A line plot connects data points with a line, showing trends or patterns over time or sequences.
-
-## 10. Bar Chart
-A bar chart displays data for categorical variables as bars. The height of each bar represents the frequency or value.
-
-## 11. Violin Plot
-A violin plot combines a boxplot with a KDE plot to show the distribution, density, and spread of the data.
-
-## 12. Jointplot
-A jointplot combines scatterplots and histograms (or KDE plots) to show the relationship between two variables along with their individual distributions.
-
-## 13. Stacked Bar Chart
-A stacked bar chart shows proportions of categories within each group, combining total and composition information.
+```bash
+pip install pandas numpy matplotlib seaborn
+```
 
 ---
 
-## What You Learn
+## Steps for Exploratory Data Analysis
 
-By doing this project, you will:
-- Understand how to explore a dataset.
-- Learn to make graphs to find insights.
-- See how data analysis can solve real-world problems.
+### 1. Load the Dataset
+The Titanic dataset is loaded using the `pandas` library:
 
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load the Titanic dataset
+df = pd.read_csv('train.csv')
+
+# Display the first few rows
+print(df.head())
+
+# Display dataset information
+print(df.info())
+
+# Display descriptive statistics
+print(df.describe())
+```
+
+- **head()**: Displays the first 5 rows for a quick overview.
+- **info()**: Provides column data types and non-null counts, useful for spotting missing data.
+- **describe()**: Summarizes numerical columns (mean, median, min, max, etc.).
+
+### 2. Analyze Columns
+#### **Numerical Data**
+- **Histograms** show frequency distributions:
+
+```python
+sns.histplot(df['Fare'], kde=True, color='blue')
+plt.title('Distribution of Fare')
+plt.xlabel('Fare')
+plt.show()
+```
+
+- **Boxplots** detect outliers:
+
+```python
+sns.boxplot(x=df['Age'])
+plt.title('Boxplot of Age')
+plt.show()
+```
+
+#### **Categorical Data**
+- Use **countplots** for category frequencies:
+
+```python
+sns.countplot(x='Pclass', data=df, palette='viridis')
+plt.title('Passenger Count by Class')
+plt.xlabel('Passenger Class')
+plt.ylabel('Count')
+plt.show()
+```
+
+- Use bar charts for other categories:
+
+```python
+df['Embarked'].value_counts().plot(kind='bar', color='orange')
+plt.title('Embarked Port Count')
+plt.xlabel('Port')
+plt.ylabel('Count')
+plt.show()
+```
+
+### 3. Relationships Between Variables
+#### **Numerical-Numerical**
+Explore relationships between two numerical columns with scatterplots:
+
+```python
+sns.scatterplot(x='Age', y='Fare', data=df)
+plt.title('Scatterplot of Age vs Fare')
+plt.xlabel('Age')
+plt.ylabel('Fare')
+plt.show()
+```
+
+#### **Categorical-Categorical**
+Compare category distributions across another category:
+
+```python
+sns.countplot(x='Pclass', hue='Survived', data=df)
+plt.title('Survival Count by Passenger Class')
+plt.xlabel('Passenger Class')
+plt.ylabel('Count')
+plt.show()
+```
+
+#### **Numerical-Categorical**
+Compare numerical data across categories:
+
+```python
+sns.boxplot(x='Survived', y='Age', data=df)
+plt.title('Boxplot of Age by Survival Status')
+plt.xlabel('Survived')
+plt.ylabel('Age')
+plt.show()
+```
+
+### 4. Multivariate Analysis
+Examine patterns involving multiple variables:
+
+- **Pairplots**:
+
+```python
+sns.pairplot(df[['Age', 'Fare', 'Pclass', 'Survived']], hue='Survived', palette='coolwarm')
+plt.suptitle('Pairplot of Selected Features', y=1.02)
+plt.show()
+```
+
+- **Heatmaps**:
+
+```python
+sns.heatmap(df.corr(), annot=True, cmap='coolwarm', fmt='.2f')
+plt.title('Correlation Heatmap')
+plt.show()
+```
+
+---
+
+## Types of Visualizations and Their Use Cases
+
+1. **Boxplot**: Summarizes data spread and identifies outliers.
+2. **Histogram**: Displays frequency distribution.
+3. **KDE Plot**: Shows data density and smooth distributions.
+4. **Heatmap**: Visualizes correlations between variables using color.
+5. **Pie Chart**: Shows proportions or percentages.
+6. **Countplot**: Compares category counts.
+7. **Scatterplot**: Explores relationships between two numerical variables.
+8. **Pairplot**: Analyzes multiple relationships simultaneously.
+9. **Bar Chart**: Visualizes category data as bars.
+10. **Line Plot**: Tracks changes over time or sequences.
+11. **Violin Plot**: Combines boxplot and KDE for distribution and density.
+12. **Jointplot**: Combines scatter and distribution plots for two variables.
+13. **Stacked Bar Chart**: Shows category proportions within groups.
+
+---
+
+## Tasks to Complete
+
+### **Task 1: Dataset Exploration**
+- **What to Do:**
+  - Use `head()`, `info()`, and `describe()` to examine the dataset structure.
+  - Identify missing values and duplicates.
+- **Outcome:**
+  - Gain a quick overview of the dataset structure.
+  - Spot incomplete or incorrect data entries.
+
+### **Task 2: Numerical Data Analysis**
+- **What to Do:**
+  - Analyze columns like `Age` and `Fare` using histograms and boxplots.
+  - Detect outliers and study data spread.
+- **Outcome:**
+  - Understand distributions and identify potential data cleaning needs.
+
+### **Task 3: Categorical Data Analysis**
+- **What to Do:**
+  - Explore columns like `Pclass`, `Sex`, and `Embarked` using `value_counts()`.
+  - Visualize the results with countplots and pie charts.
+- **Outcome:**
+  - Understand the frequency and proportions of categories.
+
+### **Task 4: Relationships Between Variables**
+- **What to Do:**
+  - Use scatterplots, boxplots, and grouped bar charts to examine relationships between variables.
+- **Outcome:**
+  - Identify how variables like `Age` and `Survived` or `Pclass` and `Survived` are connected.
+
+### **Task 5: Multivariate Analysis**
+- **What to Do:**
+  - Use pairplots and heatmaps to examine multiple variables simultaneously.
+- **Outcome:**
+  - Detect overall patterns and correlations among features.
+
+---
+
+## What You’ll Learn
+By completing this lab, you will:
+
+1. Understand how to explore and clean a dataset.
+2. Learn to use Python for creating visualizations.
+3. Develop the skills to interpret data and extract insights.
+4. Be better prepared for advanced analytics and machine learning projects.
