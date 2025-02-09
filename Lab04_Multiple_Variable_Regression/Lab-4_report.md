@@ -20,25 +20,6 @@
 [Deliverables](#deliverables)
 [Lab Questions](#lab-questions)
 [Getting Started as a Beginner](#getting-started-as-a-beginner)
-1. Objective
-2. Prerequisites
-3. Introduction to Multiple Linear Regression
-4. Assumptions of Multiple Linear Regression
-5. Evaluating Multiple Linear Regression Models
-6. Visualization
-7. Implementation of Multiple Linear Regression
-   - Step 1: Import Libraries
-   - Step 2: Load Dataset
-   - Step 3: Data Preprocessing
-   - Step 4: Train-Test Split
-   - Step 5: Train the Model
-   - Step 6: Make Predictions
-   - Step 7: Evaluate the Model
-   - Step 8: Visualize the Results
-8. Summary and Insights
-9. Deliverables
-10. Lab Questions
-11. Getting Started as a Beginner
 
 ## Objective
 The goal of this lab is to understand and implement Multiple Linear Regression, where multiple independent variables influence the dependent variable. This includes:
