@@ -2,19 +2,19 @@
 
 ## Table of Contents
 
-[Objective](#objective)
+1. [Objective](#objective)
 
-[Prerequisites](#prerequisites)
+2. [Prerequisites](#prerequisites)
 
-[Introduction to Multiple Linear Regression](#introduction-to-multiple-linear-regression)
+3. [Introduction to Multiple Linear Regression](#introduction-to-multiple-linear-regression)
 
-[Assumptions of Multiple Linear Regression](#assumptions-of-multiple-linear-regression)
+4. [Assumptions of Multiple Linear Regression](#assumptions-of-multiple-linear-regression)
 
-[Evaluating Multiple Linear Regression Models](#evaluating-multiple-linear-regression-models)
+5. [Evaluating Multiple Linear Regression Models](#evaluating-multiple-linear-regression-models)
 
-[Visualization](#visualization)
+6. [Visualization](#visualization)
 
-[Implementation of Multiple Linear Regression](#implementation-of-multiple-linear-regression)
+7. [Implementation of Multiple Linear Regression](#implementation-of-multiple-linear-regression)
 
   - [Step 1: Import Libraries](#step-1-import-libraries)
   - [Step 2: Load Dataset](#step-2-load-dataset)
@@ -25,13 +25,11 @@
   - [Step 7: Evaluate the Model](#step-7-evaluate-the-model)
   - [Step 8: Visualize the Results](#step-8-visualize-the-results)
 
-[Summary and Insights](#summary-and-insights)
+8. [Summary and Insights](#summary-and-insights)
 
-[Deliverables](#deliverables)
+9. [Deliverables](#deliverables)
 
-[Lab Questions](#lab-questions)
-
-[Getting Started as a Beginner](#getting-started-as-a-beginner)
+19. [Getting Started as a Beginner](#getting-started-as-a-beginner)
 
 ## Objective
 The goal of this lab is to understand and implement Multiple Linear Regression, where multiple independent variables influence the dependent variable. This includes:
@@ -157,4 +155,4 @@ If you're new to regression and Python, start by:
 4. **Understanding Outputs**: Read through the printed outputs and visualizations to grasp what each step is doing.
 5. **Experimenting**: Change some values, try adding new variables, and explore different datasets to get comfortable.
 
-Happy coding! 🚀
+
