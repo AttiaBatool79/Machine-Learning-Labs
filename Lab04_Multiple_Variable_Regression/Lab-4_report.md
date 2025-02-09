@@ -1,13 +1,21 @@
 # Lab 4: Linear Regression with Multiple Variables
 
 ## Table of Contents
+
 [Objective](#objective)
+
 [Prerequisites](#prerequisites)
+
 [Introduction to Multiple Linear Regression](#introduction-to-multiple-linear-regression)
+
 [Assumptions of Multiple Linear Regression](#assumptions-of-multiple-linear-regression)
+
 [Evaluating Multiple Linear Regression Models](#evaluating-multiple-linear-regression-models)
+
 [Visualization](#visualization)
+
 [Implementation of Multiple Linear Regression](#implementation-of-multiple-linear-regression)
+
   - [Step 1: Import Libraries](#step-1-import-libraries)
   - [Step 2: Load Dataset](#step-2-load-dataset)
   - [Step 3: Data Preprocessing](#step-3-data-preprocessing)
@@ -16,9 +24,13 @@
   - [Step 6: Make Predictions](#step-6-make-predictions)
   - [Step 7: Evaluate the Model](#step-7-evaluate-the-model)
   - [Step 8: Visualize the Results](#step-8-visualize-the-results)
+
 [Summary and Insights](#summary-and-insights)
+
 [Deliverables](#deliverables)
+
 [Lab Questions](#lab-questions)
+
 [Getting Started as a Beginner](#getting-started-as-a-beginner)
 
 ## Objective
@@ -130,6 +142,12 @@ plt.show()
 ## Deliverables
 1. A Jupyter Notebook with full implementation.
 2. Visualizations of regression results.
+3. Answers to lab questions.
+
+## Lab Questions
+1. What does each coefficient (β1, β2, ...) indicate for this dataset?
+2. How well does the model predict Price based on R²?
+3. Are there any patterns in the residuals that violate regression assumptions?
 
 ## Getting Started as a Beginner
 If you're new to regression and Python, start by:
