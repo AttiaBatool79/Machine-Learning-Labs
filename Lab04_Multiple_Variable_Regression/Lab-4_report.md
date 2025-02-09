@@ -29,7 +29,7 @@
 
 9. [Deliverables](#deliverables)
 
-19. [Getting Started as a Beginner](#getting-started-as-a-beginner)
+10. [Getting Started as a Beginner](#getting-started-as-a-beginner)
 
 ## Objective
 The goal of this lab is to understand and implement Multiple Linear Regression, where multiple independent variables influence the dependent variable. This includes:
@@ -141,11 +141,6 @@ plt.show()
 1. A Jupyter Notebook with full implementation.
 2. Visualizations of regression results.
 3. Answers to lab questions.
-
-## Lab Questions
-1. What does each coefficient (β1, β2, ...) indicate for this dataset?
-2. How well does the model predict Price based on R²?
-3. Are there any patterns in the residuals that violate regression assumptions?
 
 ## Getting Started as a Beginner
 If you're new to regression and Python, start by:
