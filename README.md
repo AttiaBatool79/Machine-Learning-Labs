@@ -4,7 +4,7 @@ This repository contains Machine Learning lab manuals, reports, and practical im
 
 ## About the Author
 This repository is maintained by **Attia Batool**.  
-Feel free to connect with me on [LinkedIn](www.linkedin.com/in/attia-batool-079-engineer) or reach out via email: attia.computerengineer079@gmai.com.
+Feel free to connect with me on [LinkedIn](https//www.linkedin.com/in/attia-batool-079-engineer) or reach out via email: attia.computerengineer079@gmai.com.
 
 ---
 
