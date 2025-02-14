@@ -142,4 +142,17 @@ plt.show()
 ```
 
 ---
+## Deliverables
+1. A Jupyter Notebook with full implementation.
+2. Visualizations of regression results.
+3. Answers to lab questions.
+
+## Getting Started as a Beginner
+If you're new to regression and Python, start by:
+1. **Installing Python and Jupyter Notebook**: Use Anaconda or install Python and `pip install jupyter`.
+2. **Installing Libraries**: Run `pip install pandas numpy matplotlib seaborn scikit-learn`.
+3. **Running the Provided Code**: Copy and paste each section into a Jupyter Notebook and execute it step by step.
+4. **Understanding Outputs**: Read through the printed outputs and visualizations to grasp what each step is doing.
+5. **Experimenting**: Change some values, try adding new variables, and explore different datasets to get comfortable.
+
 
