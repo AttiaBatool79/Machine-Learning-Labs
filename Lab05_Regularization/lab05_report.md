@@ -14,8 +14,8 @@
    - [6. Applying Lasso Regression](#6-applying-lasso-regression)
    - [7. Evaluating the Models](#7-evaluating-the-models)
    - [8. Visualizing Results](#8-visualizing-results)
-6. [Dlivariables](#Delivariables)
-7. [Getting Started as a Beginner](#Getting Started as a Beginner)
+6. [Deliverables](#Deliverables)
+7. [Getting Started as a Beginner](#Getting-Started-as-a-Beginner)
 
 ---
 
