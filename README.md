@@ -13,8 +13,10 @@ Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/attia-bat
 2. [Lab 02: Exploratory Data Analysis (EDA)](#lab-02-exploratory-data-analysis-eda)
 3. [Lab 03: Linear Regression with One Variable](#lab-03-linear-regression-with-one-variable)
 4. [Lab 04: Linear Regression with Multiple Variables](#lab-04-linear-regression-with-multiple-variables)
-5. [Repository Contents](#repository-contents)
-6. [How to Use](#how-to-use)
+5. [Lab 05: Regularization in Linear Regression](#lab-05-regularization-in-linear-regression)
+6. [Lab 06: Polynomial Regression](#lab-06-polynomial-regression)
+7. [Repository Contents](#repository-contents)
+8. [How to Use](#how-to-use)
 
 ---
 
@@ -64,11 +66,35 @@ All resources and practical implementations for Lab 04 are available in the `Lab
 
 ---
 
+## Lab 05: Regularization in Linear Regression
+In Lab 05, we explore **Regularization techniques** such as Ridge (L2) and Lasso (L1) regression:
+- Understand the problem of overfitting in linear models.
+- Implement **Ridge Regression** to reduce model complexity by penalizing large coefficients.
+- Apply **Lasso Regression**, which can also perform feature selection by shrinking some coefficients to zero.
+- Compare the performance of standard Linear Regression, Ridge, and Lasso models.
+
+All resources and practical implementations for Lab 05 are available in the `Lab05` folder.
+
+---
+
+## Lab 06: Polynomial Regression
+In Lab 06, we implement **Polynomial Regression**, an extension of linear regression that models non-linear relationships:
+- Understand how Polynomial Regression works.
+- Train and compare **Linear vs. Polynomial Regression models**.
+- Visualize how different polynomial degrees affect model performance.
+- Evaluate the model using error metrics and predictions.
+
+All resources and practical implementations for Lab 06 are available in the `Lab06` folder.
+
+---
+
 ## Repository Contents
 1. **Lab 01**: Basics of Python and File Handling
 2. **Lab 02**: Exploratory Data Analysis (EDA)
 3. **Lab 03**: Linear Regression with One Variable
 4. **Lab 04**: Linear Regression with Multiple Variables
+5. **Lab 05**: Regularization in Linear Regression
+6. **Lab 06**: Polynomial Regression
 
 More labs will be added as the semester progresses.
 
