@@ -154,6 +154,6 @@ If you're new to regression and Python, start by:
 
 ---
 
-✅ **Polynomial Regression helps in capturing complex relationships that Linear Regression might miss!** 🚀
+ **Polynomial Regression helps in capturing complex relationships that Linear Regression might miss!** 
 
 
