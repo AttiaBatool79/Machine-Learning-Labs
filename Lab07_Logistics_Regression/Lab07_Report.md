@@ -1,4 +1,21 @@
-# Logistic Regression 
+# Lab 7 - Logistic Regression 
+
+## Table of Contents
+- [What I Did](#what-i-did)
+- [What is Logistic Regression?](#what-is-logistic-regression)
+  - [How Does It Work?](#how-does-it-work)
+- [What I Used](#what-i-used)
+- [Steps I Followed](#steps-i-followed)
+  1. [Import Tools](#1-import-tools)
+  2. [Load and See the Data](#2-load-and-see-the-data)
+  3. [Split Data into Two Parts](#3-split-data-into-two-parts)
+  4. [Train the Model](#4-train-the-model)
+  5. [Make Predictions](#5-make-predictions)
+  6. [Check If My Model is Good](#6-check-if-my-model-is-good)
+  7. [See How the Model Thinks](#7-see-how-the-model-thinks)
+  8. [Make My Own Predictions](#8-make-my-own-predictions)
+- [What I Learned](#what-i-learned)
+- [Extra Things I Can Try](#extra-things-i-can-try)
 
 ## What I Did
 I learned how to use **Logistic Regression** to predict if someone will buy insurance based on their age. This is a way for computers to make smart guesses!
@@ -109,6 +126,5 @@ print("Prediction for age 43:", prediction_function(43))
 
 ---
 
-This was a fun way to make a computer **think and predict!** 🚀
 
 
