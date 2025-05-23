@@ -60,7 +60,7 @@ In Lab 04, we extend linear regression to multiple independent variables:
 - Understand how multiple factors influence the dependent variable.  
 - Train a multiple linear regression model and interpret coefficients.  
 - Evaluate model performance with MSE and R².  
-- Use residual plots to check model assumptions.  
+- Use residual plots to check model assumptions. 
 
 All resources and practical implementations for Lab 04 are available in the `Lab04` folder.  
 
